@@ -1,0 +1,7 @@
+<launch>
+    <!-- Launch the image_publisher.py node -->
+    <node name="image_publisher" pkg="yolov8_ros" type="image_publisher.py" output="screen"/>
+
+    <!-- Launch the yolov8_node.py node -->
+    <node name="yolov8_node" pkg="yolov8_ros" type="yolov8_node.py" output="screen"/>
+</launch>
