@@ -20,5 +20,12 @@ source devel/setup.bash
 ### Run
 
 ```
+rosrun yolov8_ros image_publisher.py
 rosrun yolov8_ros yolov8_node.py
+```
+
+or run the `image_publisher` and `yolov8_node` with roslaunch:
+
+```
+roslaunch yolov8_ros yolov8_launch.launch
 ```
