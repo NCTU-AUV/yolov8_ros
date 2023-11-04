@@ -1,5 +1,9 @@
 # YOLOv8 ROS package
 
+> [!NOTE]  
+> This package is deprecated, we will use [object detection](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_object_detection) from Isaac ROS in the future.
+
+
 ## Nodes
 
 There are 2 nodes in this package: `image_publisher` and `yolov8_node`.
